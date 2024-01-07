@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="nav container-fluid">
+        <a class="logo navbar-brand" href="#">ANaMa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><img src="list.svg" alt="menu" class="menu-icon"></span>
+        </button>
+        <div class="navColor flex-end collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Specifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="left">
+        <h1>The<br>Real<br>Sound</h1>
+      </div>
+      <div class="right">
+        <p>Click Here To Listen</p>
+        <img src="media/play.png" alt="play" id="icon">
+      </div>
+    </div>
+    <audio id="song">
+      <source src="media/rain.mp3" type="audio/mp3">
+    </audio>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
